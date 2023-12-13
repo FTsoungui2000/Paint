@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.paint.PaintController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="open" mnemonicParsing="false" onAction="#open" text="Open" />
+                  <MenuItem fx:id="save" mnemonicParsing="false" onAction="#save" text="Save" />
+                  <MenuItem fx:id="saveAs" mnemonicParsing="false" onAction="#saveAs" text="Save As" />
+                  <MenuItem fx:id="newTab" mnemonicParsing="false" onAction="#newTabB" text="New Tab" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#newCanvas" text="New Canvas" />
+                  <Menu mnemonicParsing="false" text="Rotate">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#r9MI" text="Right 90" />
+                        <MenuItem mnemonicParsing="false" onAction="#l9MI" text="Left 90" />
+                        <MenuItem mnemonicParsing="false" onAction="#r18MI" text="Right 180" />
+                        <MenuItem mnemonicParsing="false" onAction="#l18MI" text="Left 180" />
+                        <MenuItem mnemonicParsing="false" onAction="#r27MI" text="Right 270" />
+                        <MenuItem mnemonicParsing="false" onAction="#l27MI" text="Left 270" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" onAction="#mirrorHB" text="Mirror Horizontal" />
+                        <MenuItem mnemonicParsing="false" onAction="#mirrorVB" text="Mirror Vertical" />
+                    </items>
+                  </Menu>
+               </items></Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="help" mnemonicParsing="false" text="Help" />
+                  <MenuItem fx:id="options" mnemonicParsing="false" text="Options" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="100.0" prefWidth="763.0">
+         <children>
+            <Button id="pen" fx:id="pen" layoutX="40.0" mnemonicParsing="false" onAction="#penB" prefHeight="30.0" prefWidth="30.0" stylesheets="@Paint.css" />
+            <Button id="square" fx:id="square" layoutX="170.0" mnemonicParsing="false" onAction="#squareB" prefHeight="30.0" prefWidth="30.0" stylesheets="@Paint.css" />
+            <Button id="circle" fx:id="circle" layoutX="210.0" mnemonicParsing="false" onAction="#circleB" prefHeight="30.0" prefWidth="30.0" stylesheets="@Paint.css" />
+            <Button id="rectangle" fx:id="rectangle" layoutX="130.0" mnemonicParsing="false" onAction="#rectangleB" prefHeight="30.0" prefWidth="30.0" stylesheets="@Paint.css" />
+            <Button id="ellipse" fx:id="ellipse" layoutX="130.0" layoutY="40.0" mnemonicParsing="false" onAction="#ellipseB" prefHeight="30.0" prefWidth="30.0" stylesheets="@Paint.css" />
+            <Button id="triangle" fx:id="triangle" layoutX="170.0" layoutY="40.0" mnemonicParsing="false" onAction="#trianlgeB" prefHeight="30.0" prefWidth="30.0" stylesheets="@Paint.css" />
+            <Label layoutX="40.0" layoutY="80.0" text="Tools" />
+            <ChoiceBox fx:id="drawWidth" layoutX="530.0" prefWidth="50.0" />
+            <Label layoutX="540.0" layoutY="30.0" text="Width" />
+            <Separator layoutX="700.0" orientation="VERTICAL" prefHeight="100.0" />
+            <ColorPicker fx:id="cp" layoutX="710.0" prefWidth="100.0" />
+            <Label layoutX="750.0" layoutY="80.0" text="Color" />
+            <Separator layoutX="820.0" maxHeight="1.7976931348623157E308" orientation="VERTICAL" prefHeight="100.0" />
+            <Label layoutX="830.0" layoutY="5.0" text="Width" />
+            <Label layoutX="830.0" layoutY="35.0" text="Height" />
+            <TextField fx:id="canvasWidth" layoutX="870.0" prefHeight="25.0" prefWidth="50.0" />
+            <TextField fx:id="canvasHeight" layoutX="870.0" layoutY="30.0" prefHeight="25.0" prefWidth="50.0" />
+            <Label layoutX="890.0" layoutY="80.0" text="Canvas" />
+            <Separator layoutX="250.0" orientation="VERTICAL" prefHeight="100.0" />
+            <Button fx:id="dash" layoutX="280.0" mnemonicParsing="false" onAction="#dashes" text="Dashes" />
+            <Label layoutX="570.0" layoutY="80.0" text="Effects" />
+            <Label layoutX="270.0" layoutY="70.0" text="Dashes length" />
+            <Slider fx:id="dashes" blockIncrement="1.0" layoutX="260.0" layoutY="40.0" majorTickUnit="4.0" max="10.0" min="1.0" prefWidth="100.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+            <Separator layoutX="120.0" orientation="VERTICAL" prefHeight="100.0" />
+            <Label layoutX="170.0" layoutY="80.0" text="Shapes" />
+            <Button id="eraser" fx:id="eraser" layoutY="40.0" mnemonicParsing="false" onAction="#eraserB" prefHeight="30.0" prefWidth="30.0" stylesheets="@Paint.css" />
+            <Button id="text" fx:id="text" layoutX="40.0" layoutY="40.0" mnemonicParsing="false" onAction="#textB" prefHeight="30.0" prefWidth="30.0" stylesheets="@Paint.css" />
+            <Slider fx:id="sides" blockIncrement="1.0" layoutX="360.0" majorTickUnit="4.0" max="16.0" min="3.0" prefWidth="100.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+            <Label layoutX="370.0" layoutY="30.0" text="Polygon Sides" />
+            <Button layoutX="845.0" layoutY="57.0" maxWidth="50.0" mnemonicParsing="false" onAction="#resizeCanvas" prefHeight="20.0" text="Resize" />
+            <Button id="pencil" fx:id="pencil" mnemonicParsing="false" onAction="#pencilB" prefHeight="30.0" prefWidth="30.0" stylesheets="@Paint.css" />
+            <TextField fx:id="inputText" layoutX="590.0" prefWidth="100.0" />
+            <Label layoutX="630.0" layoutY="30.0" text="Text" />
+            <ChoiceBox fx:id="rotateAngle" layoutX="470.0" layoutY="40.0" />
+            <Button fx:id="rotate" layoutX="470.0" mnemonicParsing="false" onAction="#rotateB" text="Rotate" />
+            <Label fx:id="countdown" layoutX="972.0" layoutY="4.0" text="Label" />
+         </children>
+      </AnchorPane>
+      <TabPane fx:id="tabPane" prefHeight="442.0" prefWidth="763.0">
+         <tabs>
+            <Tab fx:id="tab">
+               <content>
+                  <ScrollPane fx:id="scrollPane" prefHeight="492.0" prefWidth="1101.0">
+                     <content>
+                        <Canvas fx:id="canvas" height="200.0" width="200.0" />
+                     </content>
+                  </ScrollPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </children>
+</VBox>

@@ -1,0 +1,76 @@
+#pencil {
+    -fx-background-image: url(data:image/png;base64,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);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+
+}
+#pen {
+    -fx-background-image: url(https://content.mycutegraphics.com/graphics/school/pen.png);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#eraser {
+    -fx-background-image: url(https://cdn.icon-icons.com/icons2/2066/PNG/512/eraser_icon_125292.png);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#undo {
+    -fx-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlYE7EnXhMRh8rbc370x3A96Dupi9qJlcQSw&usqp=CAU);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#redo {
+    -fx-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf_gakG_6GhS5qMqyn6mMTsDB9PI7YNe0YBQ&usqp=CAU);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#square {
+    -fx-background-image: url(https://creazilla-store.fra1.digitaloceanspaces.com/emojis/43878/green-square-emoji-clipart-xl.png);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#circle {
+    -fx-background-image: url(https://png.pngtree.com/png-clipart/20201208/original/pngtree-bright-yellow-circle-clipart-png-image_5553093.jpg);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#rectangle {
+    -fx-background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1O8NKEx4QAYXUHNBxyD2-2Vf0GI1chhW-1MIROZ5zeAAtggkce_eiIulafAbggJdgNzE&usqp=CAU);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#ellipse {
+    -fx-background-image: url(https://www.clker.com/cliparts/5/K/a/W/S/A/blue-ellipse-hi.png);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#triangle {
+    -fx-background-image: url(https://www.clipartmax.com/png/middle/191-1910643_triangle-warning-sign-green-triangle-clip-art.png);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#text {
+    -fx-background-image: url(https://content.mycutegraphics.com/graphics/alphabet/blue-alphabet-letter-t.png);
+    -fx-background-size: 25px 25px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
