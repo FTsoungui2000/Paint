@@ -1,0 +1,17 @@
+Franck's Paint(t) Version 5 10/06/2023
+
+New features
+0) 3 unit test
+1) Timer which autosaves canvas
+2) Javadoc commenting
+3) Save in alternative file format
+
+Known issues
+0) No undo and Redo
+1) No Additional shape
+2) No Regular polygon
+3) No Copy/Paste
+4) Can't move piece of image
+
+Links
+0) https://github.com/TheEpicOne25/Paint

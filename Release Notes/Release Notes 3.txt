@@ -1,0 +1,23 @@
+Franck's Paint(t) Version 3 09/15/2023
+New features
+0) Keyboard shortcuts
+
+Known issues
+0) Can't draw shapes
+1) Can't resize canvas
+2) Can't draw straight lines
+3) Can't dash outline
+4) No smart save
+5) No pun :(
+
+I now realize that (outside of the features due this week that I completed last week)
+I did not add much to paint this week. This is just going to have to be the ONE hit I take
+in this project, but all of it will be ready for next week (plus of course whats due next week).
+
+Expected next sprint 
+Eraser tool
+Some more shapes
+Text from user
+
+Links
+0) https://github.com/TheEpicOne25/Paint

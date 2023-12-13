@@ -1,0 +1,29 @@
+Franck's Paint(t) Version 4 10/01/2023
+New features
+0) New Shapes (Square, Circle, Rectangle, Ellipse, Triangle)
+1) Resize Canvas
+2) Straight line
+3) Smart Save
+4) Tabs
+5) Clear canvas
+6) Eraser tool
+7) Add text
+
+Known issues
+0) No undo and Redo
+1) No Additional shape
+2) No Regular polygon
+3) No Copy/Paste
+4) Can't move piece of image
+
+My project is in a mess. Code wise, I fill like I've done a good job splitting apart the different
+parts of the code and I think I've grouped them up as best as I can (not prefect and a few things
+might move around); some classes are getting too long (Controller & Draw classes) and will need further
+breaking down. I feel like my UI design is too basic and simple which makes sense, although I have a CSS
+class to help with this, I have not used it at all outside of putting Icons on my button because I 
+have put all the time into just coding everything else, so going forward I will look to expand more on 
+this. 
+
+
+Links
+0) https://github.com/TheEpicOne25/Paint

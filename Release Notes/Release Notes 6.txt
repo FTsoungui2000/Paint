@@ -1,0 +1,13 @@
+Franck's Paint(t) Version 6 10/16/2023
+
+New features
+0) Rotation of image (90/180/270)
+1) Tooltips
+
+Known issues
+0) Can't rotation selection of canvas
+1) No notifications for autosave
+2) No threading
+
+Links
+0) https://github.com/TheEpicOne25/Paint

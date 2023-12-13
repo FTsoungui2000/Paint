@@ -1,0 +1,16 @@
+Franck's Paint(t) Final Turn in 11/27/2023
+
+Overall Notes
+My finally thoughts on the Pain(t) project was that this was a very positive, although
+ver stress full project. The week to week requirements started to get harder and harder,
+which seems natural, but I do wish that the deadline for the later weeks were extended as
+the requirements started getting harder. This is my first time living with my own code and
+building on it for mulitple weeks and I found my self, at times, wishing that I had better
+planned my project in advance because there did not go a week when I was not rewritting something
+I had prevously done. Although seeing other peoples code made me more confident that my coding is 
+somewhat neat, I do need to improve on commenting throughout the code to improve quality and reuse
+ability. 
+
+Links
+0) Github: https://github.com/TheEpicOne25/Paint
+1) Walkthrough video: https://www.youtube.com/watch?v=N7rjM0k5HDM

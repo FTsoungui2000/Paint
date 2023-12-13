@@ -1,0 +1,19 @@
+Franck's Paint(t) Version 1 09/15/2023
+New features
+0) Supports specific file types [JPG, BMP, and PNG)
+1) Draw lines
+2) The Canvas readjust to the image that is openned
+3) The width of the line drawn can be changed
+4) Help menu option (doesn't do anything) with help and options choices
+5) Color picker that changes the color of the line being drawn
+
+Known issues
+No know issues from the code, but the code itself is disorganized and compact
+(I did add some comments to it to help clearify it) 
+
+Expected next sprint 
+Draw shapes
+Different types of lines (straight or curved)
+
+Links
+0) https://github.com/TheEpicOne25/Paint

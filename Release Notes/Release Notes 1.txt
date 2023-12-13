@@ -1,0 +1,18 @@
+Franck's Paint(t) Version 1 09/11/2023
+New features
+0) Open and display an image from user. 
+1) Window controls (Minimize, maximize, close). 
+2) Do "save". 
+3) Do "save as".
+4) have a menubar.
+
+Known issues
+0) Not really an issue, but image that opens does not center and fill the Pane
+
+Expected next sprint (Next sprint already released but)
+0) Image must fit a "canvas"
+1) Draw on image 
+
+Links
+0) https://github.com/TheEpicOne25/Paint
+
